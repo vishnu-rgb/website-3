@@ -1,4 +1,4 @@
-This is the Open Dylan website.
+This is the Open source Dylan website.
 
 It is built using `Sphinx <http://sphinx.pocoo.org>`_.  All content is written using
 ReStructured Text with Sphinx extensions.
@@ -9,7 +9,7 @@ Preparation
 Installing system dependencies
 ------------------------------
 
-Some system dependencies need to be satisfied first:
+Make sure you have install these system dependencies on your system first:
 
 - Python 3 and its package manager pip3. (It may also be installed as just
   "pip", but check whether that installs Python 2 packages.)
@@ -20,7 +20,7 @@ On a Debian-derivative, they're quite easy to fetch::
 
     sudo apt install python3 python3-pip git make
 
-Getting the source
+Getting the source :
 ------------------
 
 The next step is fetching the repository and its submodule::
@@ -32,7 +32,7 @@ The next step is fetching the repository and its submodule::
 Installing Sphinx
 -----------------
 
-Now you need the Python dependencies. The easiest way to do this is to use
+Now you need the Python dependencies. The simplest way to do this is use
 ``pip3``::
 
     sudo pip3 install -U Sphinx
@@ -85,7 +85,7 @@ documentation in various repositories by essentially doing a git pull
 and make html. These are the docs linked from the main Documentation
 page.
 
-New News Entry
+New News feed Entry
 --------------
 
 #. Create an article about it (even if very short) in the appropriate date
